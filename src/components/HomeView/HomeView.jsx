@@ -9,10 +9,12 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import styles from "./HomeView.module.css";
 import Quiz from "../Quiz/Quiz";
 import { STRANGER_THINGS_QUIZ } from "@/utils/quiz";
+import Audio from "../Audio/Audio";
 
 const HomeView = () => {
   return (
     <section className={styles.container}>
+      <Audio />
       <section className={styles.section_principal}>
         <Particles
           className="absolute inset-0 pointer-events-none"
