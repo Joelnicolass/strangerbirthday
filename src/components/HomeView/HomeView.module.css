@@ -10,7 +10,7 @@
 */
 
 .container {
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -40,7 +40,7 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   background: url("/images/bg.webp");
   background-size: cover;
