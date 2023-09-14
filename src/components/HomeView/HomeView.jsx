@@ -16,6 +16,8 @@ const HomeView = () => {
         overflowY: "scroll",
         scrollSnapType: "y mandatory",
         scrollBehavior: "smooth",
+        border: "4px solid red",
+        borderRadius: "1rem",
       }}
     >
       <section
