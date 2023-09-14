@@ -12,7 +12,6 @@ const AudioPlayer = () => {
     interrupt: true,
     onload: () => {
       isLoaded.current = true;
-      console.log("loaded");
     },
   });
 
@@ -33,8 +32,25 @@ const AudioPlayer = () => {
       isPlaying.current = true;
     });
 
+    const refclick = document.addEventListener("click", () => {
+      if (isPlaying.current) return;
+      play();
+
+      isPlaying.current = true;
+    });
+
+    const refTouch = document.addEventListener("touchstart", () => {
+      if (isPlaying.current) return;
+      play();
+
+      isPlaying.current = true;
+    });
+
     return () => {
       document.removeEventListener("click", refmouse);
+      document.removeEventListener("scroll", refscroll);
+      document.removeEventListener("click", refclick);
+      document.removeEventListener("touchstart", refTouch);
     };
   }, [isLoaded, play]);
 
