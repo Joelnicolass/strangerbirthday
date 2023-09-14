@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { motion } from "framer-motion";
+
 const AnswersQuiz = ({
   answers = [],
   hasAnswered,
@@ -20,14 +22,31 @@ const AnswersQuiz = ({
         const isEven = index % 2 === 0;
 
         return (
-          <div
-            key={answer.id}
+          <motion.div
+            initial={{
+              opacity: 0,
+              scale: 0.9,
+              y: 20,
+            }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              y: 0,
+            }}
+            transition={{
+              duration: 0.3,
+              delay: index * 0.1,
+              ease: "backOut",
+            }}
+            key={answer.text}
             className={`hover:bg-white 
             ${
-              hasAnswered && !answer.correct
+              !hasAnswered
+                ? "hover:text-black"
+                : hasAnswered && !answer.correct
                 ? "hover:text-black"
                 : "hover:text-white"
-            }
+            }           
             ${hasAnswered && !answer.correct ? "opacity-50" : ""}
             ${hasAnswered && answer.correct ? "hover-text-white" : ""}
              hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out transform ${
@@ -57,7 +76,7 @@ const AnswersQuiz = ({
             }}
           >
             <span>{text}</span>
-          </div>
+          </motion.div>
         );
       })}
     </div>

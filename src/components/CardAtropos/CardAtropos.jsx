@@ -5,7 +5,7 @@ const CardAtropos = ({ children, ...props }) => {
   return (
     <Atropos
       activeOffset={50}
-      shadowScale={1.05}
+      shadowScale={0}
       highlight={false}
       rotateXMax={5}
       rotateYMax={5}

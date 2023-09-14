@@ -7,7 +7,7 @@ import AnswersQuiz from "../AnserQuiz/AnswerQuiz";
 
 import styles from "./Quiz.module.css";
 import Glitch from "../Glitch/Glitch";
-import { MdArrowBackIosNew, MdArrowCircleRight } from "react-icons/md";
+import { MdArrowCircleRight } from "react-icons/md";
 
 const Quiz = ({ quiz = {} }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
