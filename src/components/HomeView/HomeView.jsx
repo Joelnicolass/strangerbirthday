@@ -8,6 +8,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 import styles from "./HomeView.module.css";
 import Quiz from "../Quiz/Quiz";
+import { STRANGER_THINGS_QUIZ } from "@/utils/quiz";
 
 const HomeView = () => {
   return (
@@ -112,7 +113,7 @@ const HomeView = () => {
           <Glitch text={"Coming Soon"} />
           <Glitch text={"Quiz for you"} size={20} />
         </Fade> */}
-        <Quiz />
+        <Quiz quiz={STRANGER_THINGS_QUIZ} />
       </section>
     </section>
   );

@@ -9,6 +9,7 @@ const CardAtropos = ({ children, ...props }) => {
       highlight={false}
       rotateXMax={5}
       rotateYMax={5}
+      rotateTouch={"scroll-y"}
       {...props}
     >
       {children}

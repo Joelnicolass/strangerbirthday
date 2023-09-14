@@ -1,20 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
-const AnswerQuiz = ({
-  answers = [
-    {
-      text: "Example",
-    },
-    {
-      text: "Example",
-    },
-    {
-      text: "Example",
-    },
-    {
-      text: "Example",
-    },
-  ],
+const AnswersQuiz = ({
+  answers = [],
+  hasAnswered,
+  onClicked = (answer) => {},
 }) => {
   return (
     <div
@@ -32,10 +21,27 @@ const AnswerQuiz = ({
 
         return (
           <div
-            key={index}
-            className={`hover:bg-white hover:text-black hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out transform ${
-              isEven ? "hover:-rotate-2" : "hover:rotate-2"
-            }`}
+            key={answer.id}
+            className={`hover:bg-white 
+            ${
+              hasAnswered && !answer.correct
+                ? "hover:text-black"
+                : "hover:text-white"
+            }
+            ${hasAnswered && !answer.correct ? "opacity-50" : ""}
+            ${hasAnswered && answer.correct ? "hover-text-white" : ""}
+             hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out transform ${
+               isEven ? "hover:-rotate-2" : "hover:rotate-2"
+             } ${
+              hasAnswered
+                ? answer.correct
+                  ? ""
+                  : isEven
+                  ? "rotate-2"
+                  : "-rotate-2"
+                : ""
+            }
+            `}
             style={{
               display: "flex",
               alignItems: "center",
@@ -44,6 +50,10 @@ const AnswerQuiz = ({
               border: "1px solid white",
               borderRadius: "10px",
               padding: "1rem",
+              backgroundColor: hasAnswered && answer.correct && "#33a466",
+            }}
+            onClick={() => {
+              onClicked(answer);
             }}
           >
             <span>{text}</span>
@@ -54,4 +64,4 @@ const AnswerQuiz = ({
   );
 };
 
-export default AnswerQuiz;
+export default AnswersQuiz;
