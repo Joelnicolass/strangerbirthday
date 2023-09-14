@@ -10,7 +10,7 @@ const HomeView = () => {
   return (
     <section
       style={{
-        height: "100vh",
+        height: "100svh",
         position: "relative",
         overflowX: "hidden",
         overflowY: "scroll",
@@ -26,7 +26,7 @@ const HomeView = () => {
           justifyContent: "space-around",
           alignItems: "center",
           flexDirection: "column",
-          height: "100vh",
+          height: "100svh",
           width: "100%",
           background: 'url("/images/bg.webp")',
           backgroundSize: "cover",
