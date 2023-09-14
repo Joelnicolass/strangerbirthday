@@ -122,7 +122,7 @@ const HomeView = () => {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          height: "100vh",
+          height: "100svh",
           width: "100%",
           scrollSnapAlign: "start",
         }}
