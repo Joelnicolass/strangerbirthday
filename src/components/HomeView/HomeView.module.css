@@ -1,0 +1,75 @@
+/* 
+    height: "100svh",
+        position: "relative",
+        overflowX: "hidden",
+        overflowY: "scroll",
+        scrollSnapType: "y mandatory",
+        scrollBehavior: "smooth",
+        border: "4px solid red",
+        borderRadius: "1rem",
+*/
+
+.container {
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  border: 4px solid red;
+  border-radius: 1rem;
+}
+
+/* 
+    display: "flex",
+          justifyContent: "space-around",
+          alignItems: "center",
+          flexDirection: "column",
+          height: "100svh",
+          width: "100%",
+          background: 'url("/images/bg.webp")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          scrollSnapAlign: "start",
+          position: "relative",
+*/
+
+.section_principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: url("/images/bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+/* 
+    border: "2px solid white",
+              padding: "1rem",
+              borderRadius: "1rem",
+              background: "rgba(0,0,0,0.4)",
+              backdropFilter: "blur(10px)",
+              margin: "2rem",
+*/
+
+.container_advertisement {
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  margin: 2rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    border: 0;
+  }
+}

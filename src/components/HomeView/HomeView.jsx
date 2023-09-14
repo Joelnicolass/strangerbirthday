@@ -6,36 +6,12 @@ import Advertisement from "../Advertisement/Advertisement";
 import Particles from "../Particles/Particles";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
+import styles from "./HomeView.module.css";
+
 const HomeView = () => {
   return (
-    <section
-      style={{
-        height: "100svh",
-        position: "relative",
-        overflowX: "hidden",
-        overflowY: "scroll",
-        scrollSnapType: "y mandatory",
-        scrollBehavior: "smooth",
-        border: "4px solid red",
-        borderRadius: "1rem",
-      }}
-    >
-      <section
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          alignItems: "center",
-          flexDirection: "column",
-          height: "100svh",
-          width: "100%",
-          background: 'url("/images/bg.webp")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          scrollSnapAlign: "start",
-          position: "relative",
-        }}
-      >
+    <section className={styles.container}>
+      <section className={styles.section_principal}>
         <Particles
           className="absolute inset-0 pointer-events-none"
           quantity={100}
@@ -74,17 +50,8 @@ const HomeView = () => {
           ease="backOut"
         >
           <div
-            className="transform rotate-2 hover:rotate-6 transition duration-500 ease-in-out
-            cursor-crosshair 
-            "
-            style={{
-              border: "2px solid white",
-              padding: "1rem",
-              borderRadius: "1rem",
-              background: "rgba(0,0,0,0.4)",
-              backdropFilter: "blur(10px)",
-              margin: "2rem",
-            }}
+            className={`transform rotate-2 hover:rotate-6 transition duration-500 ease-in-out
+            cursor-crosshair ${styles.container_advertisement}`}
           >
             <Advertisement
               text={{
