@@ -1,5 +1,6 @@
 import { RootProvider } from "@/providers/RootProvider";
 import "./globals.css";
+import "atropos/css";
 
 import localFont from "next/font/local";
 

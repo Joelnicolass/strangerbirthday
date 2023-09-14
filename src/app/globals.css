@@ -54,3 +54,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.atropos-scale,
+.atropos-rotate {
+  height: auto !important;
+}

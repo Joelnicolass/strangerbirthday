@@ -7,6 +7,7 @@ import Particles from "../Particles/Particles";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 import styles from "./HomeView.module.css";
+import Quiz from "../Quiz/Quiz";
 
 const HomeView = () => {
   return (
@@ -107,10 +108,11 @@ const HomeView = () => {
           color="#0040ffca"
         />
 
-        <Fade>
+        {/*  <Fade>
           <Glitch text={"Coming Soon"} />
           <Glitch text={"Quiz for you"} size={20} />
-        </Fade>
+        </Fade> */}
+        <Quiz />
       </section>
     </section>
   );
