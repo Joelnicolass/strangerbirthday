@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body
         className={strangerThingsFont.className}
         style={{
-          maxWidth: "800px",
+          maxWidth: "1200px",
           margin: "0 auto",
         }}
       >
