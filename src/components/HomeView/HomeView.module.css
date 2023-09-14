@@ -48,6 +48,10 @@
   background-repeat: no-repeat;
   scroll-snap-align: start;
   position: relative;
+  /* 
+    mover imagen de fondo
+  */
+  background-position: -370px 0px;
 }
 
 /* 
