@@ -371,17 +371,17 @@ export const STRANGER_THINGS_QUIZ = {
       answers: [
         {
           id: 1,
-          text: "El Instituto",
-          correct: true,
-        },
-        {
-          id: 2,
-          text: "El Laboratorio Secreto",
+          text: "El Instituto de Investigación de Hawkins",
           correct: false,
         },
         {
+          id: 2,
+          text: "El Laboratorio Nacional de Hawkins",
+          correct: true,
+        },
+        {
           id: 3,
-          text: "La Agencia Extraña",
+          text: "La Agencia de Seguridad Nacional de Hawkins",
           correct: false,
         },
         {
@@ -445,7 +445,7 @@ export const STRANGER_THINGS_QUIZ = {
     },
     {
       title: "Pregunta 18 - ",
-      text: "¿Cuál es el nombre del amigo de Eleven y hermano mayor de Mike que tiene una lucha constante con Lucas en la serie?",
+      text: "¿Cuál es el nombre del amigo de Eleven y hermano mayor de Max que tiene una lucha constante con Lucas en la serie?",
       answers: [
         {
           id: 1,
