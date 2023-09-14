@@ -261,5 +261,265 @@ export const STRANGER_THINGS_QUIZ = {
         },
       ],
     },
+    {
+      title: "Pregunta 11 - ",
+      text: "¿Cuál es el nombre del hermano mayor de Mike en la serie?",
+      answers: [
+        {
+          id: 1,
+          text: "Steve",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "Billy",
+          correct: true,
+        },
+        {
+          id: 3,
+          text: "Jonathan",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Max",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 12 - ",
+      text: "En la segunda temporada, ¿qué personaje se une al grupo de amigos y tiene una conexión con el Mundo del Revés?",
+      answers: [
+        {
+          id: 1,
+          text: "Max",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "Billy",
+          correct: true,
+        },
+        {
+          id: 3,
+          text: "Steve",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Lucas",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 13 - ",
+      text: "¿Qué juega Dustin durante la primera temporada de la serie?",
+      answers: [
+        {
+          id: 1,
+          text: "Ajedrez",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "Dungeons & Dragons (D&D)",
+          correct: true,
+        },
+        {
+          id: 3,
+          text: "Póker",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Monopoly",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 14 - ",
+      text: "¿Cuál es el nombre del centro comercial que se convierte en un lugar clave en la tercera temporada?",
+      answers: [
+        {
+          id: 1,
+          text: "Starcourt Mall",
+          correct: true,
+        },
+        {
+          id: 2,
+          text: "Hawkins Plaza",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "Upside Down Mall",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Mall of Hawkins",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 15 - ",
+      text: "¿Cuál es el nombre de la organización gubernamental que realiza experimentos en Eleven y otros personajes con habilidades especiales?",
+      answers: [
+        {
+          id: 1,
+          text: "El Instituto",
+          correct: true,
+        },
+        {
+          id: 2,
+          text: "El Laboratorio Secreto",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "La Agencia Extraña",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "La Fundación Hawkins",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 16 - ",
+      text: "En la segunda temporada, ¿cuál es el nombre del nuevo amigo de Dustin que es una criatura parecida a un pequeño Demogorgon?",
+      answers: [
+        {
+          id: 1,
+          text: "Dart",
+          correct: true,
+        },
+        {
+          id: 2,
+          text: "Gorgon",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "Slug",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Max",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 17 - ",
+      text: "¿Cuál es el nombre del jefe de seguridad del Laboratorio de Investigación de Hawkins en la primera temporada?",
+      answers: [
+        {
+          id: 1,
+          text: "Dr. Owens",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "Dr. Brenner",
+          correct: true,
+        },
+        {
+          id: 3,
+          text: "Dr. Smith",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Dr. Martin",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 18 - ",
+      text: "¿Cuál es el nombre del amigo de Eleven y hermano mayor de Mike que tiene una lucha constante con Lucas en la serie?",
+      answers: [
+        {
+          id: 1,
+          text: "Dustin",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "Will",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "Billy",
+          correct: true,
+        },
+        {
+          id: 4,
+          text: "Max",
+          correct: false,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 19 - ",
+      text: "¿Cuál es el nombre del lugar donde se esconde Eleven en la primera temporada y donde vive durante un tiempo?",
+      answers: [
+        {
+          id: 1,
+          text: "La Granja",
+          correct: false,
+        },
+        {
+          id: 2,
+          text: "La Casa de los Secretos",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "La Cabaña del Bosque",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "La Cabaña de Hopper",
+          correct: true,
+        },
+      ],
+    },
+    {
+      title: "Pregunta 20 - ",
+      text: "¿Cómo se llama el monstruo gigante que aparece en la segunda temporada y es conocido por ser el 'rey' del Mundo del Revés?",
+      answers: [
+        {
+          id: 1,
+          text: "Mind Flayer",
+          correct: true,
+        },
+        {
+          id: 2,
+          text: "Demodog",
+          correct: false,
+        },
+        {
+          id: 3,
+          text: "Thessalhydra",
+          correct: false,
+        },
+        {
+          id: 4,
+          text: "Demogorgon",
+          correct: false,
+        },
+      ],
+    },
   ],
 };
