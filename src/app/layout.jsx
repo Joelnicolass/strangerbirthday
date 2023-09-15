@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" suppressHydrationWarning={true}>
+    <html lang="es">
       <body
         className={strangerThingsFont.className}
         style={{
