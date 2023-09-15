@@ -27,7 +27,7 @@ export const STRANGER_THINGS_QUIZ = {
         },
       ],
     },
-    {
+    /* {
       title: "Pregunta - ",
       text: "¿Cuál es el nombre del personaje interpretado por Millie Bobby Brown que tiene habilidades telequinéticas en la serie?",
       answers: [
@@ -520,6 +520,6 @@ export const STRANGER_THINGS_QUIZ = {
           correct: false,
         },
       ],
-    },
+    }, */
   ],
 };

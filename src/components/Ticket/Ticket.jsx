@@ -38,16 +38,9 @@ const Ticket = ({ points }) => {
       >
         <div></div>
         <span
+          className={styles.title}
           style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            fontSize: "40px",
-            fontWeight: "bold",
             webkitTextStroke: ticket.stroke,
-            webkitTextFillColor: "transparent",
-            webkitTextStrokeWidth: "1px",
           }}
         >
           <div
@@ -56,17 +49,12 @@ const Ticket = ({ points }) => {
               width: "100%",
             }}
           >
-            <span
-              style={{
-                fontSize: "20px",
-              }}
-            >
-              #STRANGERBIRTHDAY
-            </span>
+            <span className={styles.hashtag}>#STRANGERBIRTHDAY</span>
           </div>
           {ticket.text}
           <div>
             <Image
+              className={styles.img}
               src="/images/sticker.png"
               width={150}
               height={150}
