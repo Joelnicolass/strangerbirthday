@@ -2,7 +2,7 @@ export const STRANGER_THINGS_QUIZ = {
   title: "GANA TU ENTRADA!",
   questions: [
     {
-      title: "Pregunta 1 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del mundo alternativo al que se accede a través del Portal en Stranger Things?",
       answers: [
         {
@@ -28,7 +28,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 2 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del personaje interpretado por Millie Bobby Brown que tiene habilidades telequinéticas en la serie?",
       answers: [
         {
@@ -54,7 +54,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 3 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del grupo de amigos protagonistas en Stranger Things?",
       answers: [
         {
@@ -80,7 +80,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 4 - ",
+      title: "Pregunta - ",
       text: "¿Qué tipo de criatura aterradora acecha a los habitantes de Hawkins en la primera temporada de la serie?",
       answers: [
         {
@@ -106,7 +106,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 5 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del centro de investigación gubernamental en Hawkins donde ocurren experimentos secretos?",
       answers: [
         {
@@ -132,7 +132,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 6 - ",
+      title: "Pregunta - ",
       text: "¿Qué canción de la década de 1980 se convierte en un elemento importante en la serie y es el tema musical de la amistad de Eleven y Mike?",
       answers: [
         {
@@ -158,7 +158,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 7 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del niño que desaparece al principio de la serie, lo que desencadena la búsqueda en Hawkins?",
       answers: [
         {
@@ -184,7 +184,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 8 - ",
+      title: "Pregunta - ",
       text: "¿Qué actor interpreta a Jim Hopper, el jefe de policía de Hawkins?",
       answers: [
         {
@@ -210,7 +210,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 9 - ",
+      title: "Pregunta - ",
       text: "¿Qué sustancia utilizan los personajes para comunicarse con Eleven en la segunda temporada?",
       answers: [
         {
@@ -236,7 +236,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 10 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del parque de diversiones donde ocurre una importante confrontación en la tercera temporada?",
       answers: [
         {
@@ -262,8 +262,8 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 11 - ",
-      text: "¿Cuál es el nombre del hermano mayor de Mike en la serie?",
+      title: "Pregunta - ",
+      text: "¿Cuál es el nombre del hermano mayor de Max en la serie?",
       answers: [
         {
           id: 1,
@@ -288,7 +288,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 12 - ",
+      title: "Pregunta - ",
       text: "En la segunda temporada, ¿qué personaje se une al grupo de amigos y tiene una conexión con el Mundo del Revés?",
       answers: [
         {
@@ -314,7 +314,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 13 - ",
+      title: "Pregunta - ",
       text: "¿Qué juega Dustin durante la primera temporada de la serie?",
       answers: [
         {
@@ -340,7 +340,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 14 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del centro comercial que se convierte en un lugar clave en la tercera temporada?",
       answers: [
         {
@@ -366,7 +366,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 15 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre de la organización gubernamental que realiza experimentos en Eleven y otros personajes con habilidades especiales?",
       answers: [
         {
@@ -392,7 +392,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 16 - ",
+      title: "Pregunta - ",
       text: "En la segunda temporada, ¿cuál es el nombre del nuevo amigo de Dustin que es una criatura parecida a un pequeño Demogorgon?",
       answers: [
         {
@@ -418,7 +418,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 17 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del jefe de seguridad del Laboratorio de Investigación de Hawkins en la primera temporada?",
       answers: [
         {
@@ -444,7 +444,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 18 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del amigo de Eleven y hermano mayor de Max que tiene una lucha constante con Lucas en la serie?",
       answers: [
         {
@@ -470,7 +470,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 19 - ",
+      title: "Pregunta - ",
       text: "¿Cuál es el nombre del lugar donde se esconde Eleven en la primera temporada y donde vive durante un tiempo?",
       answers: [
         {
@@ -496,7 +496,7 @@ export const STRANGER_THINGS_QUIZ = {
       ],
     },
     {
-      title: "Pregunta 20 - ",
+      title: "Pregunta - ",
       text: "¿Cómo se llama el monstruo gigante que aparece en la segunda temporada y es conocido por ser el 'rey' del Mundo del Revés?",
       answers: [
         {
